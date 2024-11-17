@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 [2024-11-16 22:49:08,532: INFO: main: welcome to our custom log]
+=======
+[2024-11-16 23:15:16,221: INFO: main: welcome to our custom log]
+[2024-11-16 23:17:11,494: INFO: main: welcome to our custom log]
+[2024-11-16 23:36:35,721: INFO: main: welcome to our custom log]
+>>>>>>> c34299f1062e4752181dd8cbe41149bef981b370

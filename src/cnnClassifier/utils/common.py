@@ -1,4 +1,5 @@
 import os
+<<<<<<< HEAD
 from box.exceptions import BoxValueError # type: ignore
 import yaml  # type: ignore
 from src.cnnClassifier import logger
@@ -6,11 +7,24 @@ import json
 import joblib  # type: ignore
 from ensure import ensure_annotations # type: ignore
 from box import ConfigBox # type: ignore
+=======
+from box.exceptions import BoxValueError
+import yaml # type: ignore
+from cnnClassifier import logger
+import json
+import joblib # type: ignore
+from ensure import ensure_annotations
+from box import ConfigBox
+>>>>>>> c34299f1062e4752181dd8cbe41149bef981b370
 from pathlib import Path
 from typing import Any
 import base64
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> c34299f1062e4752181dd8cbe41149bef981b370
 @ensure_annotations
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
     """reads yaml file and returns
@@ -34,6 +48,10 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
         raise ValueError("yaml file is empty")
     except Exception as e:
         raise e
+<<<<<<< HEAD
+=======
+    
+>>>>>>> c34299f1062e4752181dd8cbe41149bef981b370
 
 
 @ensure_annotations
@@ -64,6 +82,11 @@ def save_json(path: Path, data: dict):
     logger.info(f"json file saved at: {path}")
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> c34299f1062e4752181dd8cbe41149bef981b370
 @ensure_annotations
 def load_json(path: Path) -> ConfigBox:
     """load json files data
@@ -107,7 +130,10 @@ def load_bin(path: Path) -> Any:
     logger.info(f"binary file loaded from: {path}")
     return data
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> c34299f1062e4752181dd8cbe41149bef981b370
 @ensure_annotations
 def get_size(path: Path) -> str:
     """get size in KB
@@ -118,7 +144,11 @@ def get_size(path: Path) -> str:
     Returns:
         str: size in KB
     """
+<<<<<<< HEAD
     size_in_kb = round(os.path.getsize(path) / 1024)
+=======
+    size_in_kb = round(os.path.getsize(path)/1024)
+>>>>>>> c34299f1062e4752181dd8cbe41149bef981b370
     return f"~ {size_in_kb} KB"
 
 
