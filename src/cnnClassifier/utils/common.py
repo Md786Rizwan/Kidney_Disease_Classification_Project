@@ -5,7 +5,7 @@ from src.cnnClassifier import logger
 import json
 import joblib # type: ignore
 from ensure import ensure_annotations # type: ignore
-from box import ConfigBox # type: ignore
+from box import ConfigBox 
 from pathlib import Path
 from typing import Any
 import base64
