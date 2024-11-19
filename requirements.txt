@@ -7,11 +7,11 @@ numpy
 matplotlib
 seaborn
 python-box
-PyYAML
+Pyyaml
 tqdm
 ensure==1.0.2
 joblib
-types-PyYAML
+types-Pyyaml
 scipy
 Flask
 Flask-Cors
