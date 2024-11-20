@@ -16,5 +16,5 @@ scipy
 Flask
 Flask-Cors
 gdown
-pillow
+Pillow
 -e .
